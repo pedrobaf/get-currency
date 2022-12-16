@@ -20,7 +20,7 @@ response = requests.get(url, headers=headers)
 with open("res.json", "w") as f:
     f.write(json.dumps(response.json(), indent=4)) 
     
-
+# converting json to csv file
 df = pd.read_json (r'/Users/pedro/Desktop/Projects/res.json')
 df.to_csv (r'/Users/pedro/Desktop/Projects/res.csv', index = None)
 
