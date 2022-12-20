@@ -39,14 +39,14 @@ load_dotenv()
 First, I imported all the libraries I was going to use. 
 
 ```python
+# Here is the variable for the API Key created at .env
 API_KEY = os.getenv("API_KEY")
-#Here I am hiding the file path.
+# Here I created a variable to hide the file path
 basePath = os.path.dirname(os.path.abspath(__file__))
 
 base = "USD"
 # Here I am converting Dollars to Brazilian Reais. Check the documentation to see what kind of rates you would need.
 symbols = "BRL"
-
 
 url = f"https://openexchangerates.org/api/latest.json?app_id={API_KEY}&base={base}&symbols={symbols}&prettyprint=false&show_alternative=false"
 
