@@ -17,7 +17,7 @@ headers = {"accept": "application/json"}
 
 response = requests.get(url, headers=headers)
 
-with open("res.json", "w") as f:
+with open(basePath + "/res.json", "w") as f:
     f.write(json.dumps(response.json(), indent=4)) 
     
 # converting json to csv file
