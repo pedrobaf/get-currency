@@ -23,5 +23,3 @@ with open("res.json", "w") as f:
 # converting json to csv file
 df = pd.read_json ("res.json")
 df.to_csv (basePath + "/res.csv", index = None)
-
-
