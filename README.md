@@ -54,7 +54,7 @@ headers = {"accept": "application/json"}
 
 response = requests.get(url, headers=headers)
 ```
-Then, I created some variables to use in the URL. After that, I made a GET request to this URL.
+Then, I created variables to query the API
 
 ```python
 with open(basePath + "/res.json", "w") as f:
