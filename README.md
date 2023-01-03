@@ -2,7 +2,7 @@
 
 Sign up to `<https://openexchangerates.org/>` so you can get your APP ID.
 
-It is a goog idea to go to the ENDPOINTS and read the examples
+It is a good idea to go to the ENDPOINTS and read the examples
 
 ## To hide your API KEYS
 
